@@ -1,0 +1,197 @@
+*{
+    
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+}
+nav{
+    text-decoration: none;
+    align-items: center;
+    height: 100px;
+    scroll-behavior: inherit;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    
+}
+.first{
+    border: #8AB833;
+    float: left;
+    flex: 1;
+    padding: 200px;
+    font-size: 50px;
+}
+.second{
+    flex: 1;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    background-color: #F3ADB0;
+}
+.first, .second{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:  100px;
+}
+
+.augie{
+    flex: 1;
+    width: 250px;
+    height: 250px;
+    justify-content: space-between;
+    perspective: 800px;
+}
+.augie__inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+.augie__inner.is-flipped {
+    transform: rotateY(180deg);
+}
+.augie__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.augie__face--front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.augie__face--back {
+    background-color: white;
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+h2 {
+    position: relative;
+    padding: 30px 30px 40px;
+
+}
+h2:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 0 0 50% 0;
+}
+.augie__button {
+    border-color: #8AB833;
+}
+.olivia{
+    flex: 1;
+    width: 250px;
+    height: 250px;
+    justify-content: space-between;
+    perspective: 800px;
+}
+.olivia__inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+.olivia__inner.is-flipped {
+    transform: rotateY(180deg);
+}
+.olivia__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.olivia__face--front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.olivia__face--back {
+    background-color: white;
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+.grace{
+    width: 250px;
+    height: 250px;
+    justify-content: space-between;
+    perspective: 800px;
+}
+.grace__inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.grace__inner.is-flipped {
+    transform: rotateY(180deg);
+}
+.grace__face {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.grace__face--front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grace__face--back {
+    background-color: white;
+    transform: rotateY(180deg);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.grace, .augie, .olivia{
+    display: -webkit-flex;
+    overflow: hidden;
+}
+.project1{
+    justify-content: space-between;
+    display: flexbox;
+}
+.skills1
+ul > li 
+{
+    text-align: center;
+    list-style-type: none;
+}
+.spinner_1{
+    align-items: center;
+}
